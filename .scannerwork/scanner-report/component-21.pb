@@ -1,0 +1,1 @@
+ 2webXZhrblog/templates/blog/base.html

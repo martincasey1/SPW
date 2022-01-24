@@ -1,0 +1,1 @@
+ 2webX%hr#blog/templates/blog/user_posts.html

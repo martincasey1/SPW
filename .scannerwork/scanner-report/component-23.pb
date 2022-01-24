@@ -1,0 +1,1 @@
+ 2webXhr/blog/templates/blog/display_gallery_images.html

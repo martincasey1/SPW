@@ -1,0 +1,1 @@
+: 2webXhr1users/templates/users/password_reset_confirm.html

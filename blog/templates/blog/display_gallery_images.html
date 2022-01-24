@@ -1,0 +1,11 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% for gallery in gallery_image %}
+    <article class="media content-section">
+        <div class="col-md-6">
+            <h2 class="article-title">{{ gallery.name }}</h2>
+            <img src="{{ gallery.gallery_Main_Img.url }}" class="img-fluid rounded float-left" alt=""/>
+        </div> 
+    </article>
+{% endfor %} 
+{% endblock content %}

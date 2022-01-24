@@ -1,0 +1,1 @@
+ 2webX9hr$blog/templates/blog/post_detail.html

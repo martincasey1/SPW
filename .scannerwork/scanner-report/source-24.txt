@@ -1,0 +1,17 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+        <div>
+            {% if user.is_authenticated %}
+            <form method = "post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{form|crispy}}
+                <button class="btn btn-outline-info mb-4" type="submit">Upload</button>
+            </form>
+            {% else %}
+                <a class="nav-item nav-link" href="{% url 'login' %}">Login to Upload an Image</a>
+            {% endif %}
+        </div>
+
+{% endblock content %}

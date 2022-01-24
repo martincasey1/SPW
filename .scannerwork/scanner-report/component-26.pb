@@ -1,0 +1,1 @@
+ 2webXhr,blog/templates/blog/post_confirm_delete.html

@@ -1,0 +1,17 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div> 
+    <h1>Contact</h1>
+    <h4>Contact us directly if you have any questions</h4>
+    <p>
+        Please write you name, email address and a message below if you have any questions.
+        One of our staff members will be happy to contact you directly and answer your questions as soon as possible.
+    </p>
+    <form method="post">
+        {% csrf_token %}
+        {{form|crispy}}
+            <button class="btn btn-outline-info" type="submit">Submit</button>
+    </form>
+</div>
+{% endblock content %}
