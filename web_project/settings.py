@@ -28,6 +28,7 @@ SECRET_KEY = 'django-insecure-c1^1d6nx5+m6u_9sopb&7h6gm_a$czng)u$lznp_ytpzwrklb@
 DEBUG = True
 ALLOWED_HOSTS = [
     "https://wa-ne-prd-blog.azurewebsites.net",
+    "wa-ne-prd-blog.azurewebsites.net",
 ]
 
 
