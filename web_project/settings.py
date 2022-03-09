@@ -92,6 +92,8 @@ WSGI_APPLICATION = 'web_project.wsgi.application'
 MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
+# DBHOST is only the server name, not the full URL
+hostname = os.environ['DBHOST']
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
