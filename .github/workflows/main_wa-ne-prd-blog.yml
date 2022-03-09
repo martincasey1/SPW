@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'wa-ne-prd-blog'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_394E1536CF074027A3F5C2C36ACED24C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6231AC659A4F40218C9E7AEA882F84B4 }}
