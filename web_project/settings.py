@@ -100,7 +100,7 @@ hostname = os.environ['DBHOST']
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.pyodbc',
         'NAME': os.environ['DBNAME'],
         'HOST': hostname + ".database.windows.net",
         'USER': os.environ['DBUSER'] + "@" + hostname,
