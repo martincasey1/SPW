@@ -100,12 +100,16 @@ hostname = os.environ['DBHOST']
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'sql_server.pyodbc',
         'NAME': os.environ['DBNAME'],
         'HOST': hostname + ".database.windows.net",
         'USER': os.environ['DBUSER'] + "@" + hostname,
         'PASSWORD': os.environ['DBPASS'],
         'PORT': '1433',
+        'OPTIONS': {
+             'driver': 'ODBC Driver 13 for SQL Server',
+             'MARS_Connection': 'True',
+         },
     },
 }
 
