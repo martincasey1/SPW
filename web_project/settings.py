@@ -14,6 +14,8 @@ from os import path
 import os
 from pathlib import Path
 import pyodbc
+import django-pyodbc-azure
+import django-pyodbc
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -108,7 +110,7 @@ DATABASES = {
         'PASSWORD': os.environ['DBPASS'],
         'PORT': '1433',
         'OPTIONS': {
-             'driver': 'ODBC Driver 13 for SQL Server',
+             'driver': 'ODBC Driver 17 for SQL Server',
              'MARS_Connection': 'True',
          },
     },
