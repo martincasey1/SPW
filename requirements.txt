@@ -6,7 +6,6 @@ colorama==0.4.4
 cryptography==36.0.0
 defusedxml==0.7.1
 Django==3.0.10
-django-axes==5.28.0
 django-cors-headers==3.10.1
 django-crispy-forms==1.13.0
 django-ipware==4.0.2
