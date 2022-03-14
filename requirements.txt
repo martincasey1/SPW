@@ -41,5 +41,4 @@ wheel==0.37.0
 whitenoise
 psycopg2-binary
 pyodbc
-django-pyodbc
-django-pyodbc-azure
+django-mssql-backend
