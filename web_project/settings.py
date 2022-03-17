@@ -101,7 +101,7 @@ hostname = os.environ['DBHOST']
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
+        'ENGINE': 'mssql',
         'NAME': os.environ['DBNAME'],
         'HOST': hostname + ".database.windows.net",
         'USER': os.environ['DBUSER'] + "@" + hostname,
